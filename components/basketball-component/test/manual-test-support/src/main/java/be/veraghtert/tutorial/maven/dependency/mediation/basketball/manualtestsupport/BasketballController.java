@@ -17,6 +17,6 @@ public class BasketballController {
 
     @GetMapping
     public String love() {
-        return String.format("I love %s", sportsRepository.getSport());
+        return String.format("I love %s", sportsRepository.getBasketball());
     }
 }

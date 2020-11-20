@@ -6,4 +6,8 @@ public class SportsRepository {
         return "tennis";
     }
 
+    public String getBasketball() {
+        return "basketball";
+    }
+
 }
