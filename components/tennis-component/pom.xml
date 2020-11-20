@@ -46,7 +46,7 @@
             <dependency>
                 <groupId>be.veraghtert.tutorial.maven.dependency.mediation</groupId>
                 <artifactId>sports-domain</artifactId>
-                <version>1.0.0</version>
+                <version>2.0.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

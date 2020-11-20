@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <revision>4.0.0</revision>
+        <revision>5.0.0</revision>
     </properties>
 
     <modules>
