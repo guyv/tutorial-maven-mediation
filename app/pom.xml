@@ -50,18 +50,27 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
                 <version>3.0.0-M3</version>
+                <dependencies>
+                    <!-- https://github.com/apache/maven-enforcer/pull/78 -->
+<!--                    <dependency>-->
+<!--                        <groupId>maven</groupId>-->
+<!--                        <artifactId>semver-compatibility-enforcer-rule</artifactId>-->
+<!--                        <version>1.0.0</version>-->
+<!--                    </dependency>-->
+                </dependencies>
                 <executions>
-                    <execution>
-                        <id>enforce</id>
-                        <configuration>
-                            <rules>
-                                <dependencyConvergence/>
-                            </rules>
-                        </configuration>
-                        <goals>
-                            <goal>enforce</goal>
-                        </goals>
-                    </execution>
+<!--                    <execution>-->
+<!--                        <id>enforce</id>-->
+<!--                        <configuration>-->
+<!--                            <rules>-->
+<!--                                <dependencyConvergence/>-->
+<!--                                <semverCompatibleDeps implementation="SemverCompatibleDeps"/>-->
+<!--                            </rules>-->
+<!--                        </configuration>-->
+<!--                        <goals>-->
+<!--                            <goal>enforce</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
                 </executions>
             </plugin>
         </plugins>
