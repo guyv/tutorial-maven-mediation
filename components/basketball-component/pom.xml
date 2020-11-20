@@ -16,7 +16,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>core</module>
         <module>test</module>
         <module>component</module>
     </modules>
@@ -45,9 +44,9 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>be.veraghtert.tutorial.maven.dependency.mediation.components.basketball</groupId>
-                <artifactId>basketball-domain</artifactId>
-                <version>${project.version}</version>
+                <groupId>be.veraghtert.tutorial.maven.dependency.mediation</groupId>
+                <artifactId>sports-domain</artifactId>
+                <version>1.0.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -34,8 +34,8 @@
             <artifactId>tennis-manual-test-support</artifactId>
         </dependency>
         <dependency>
-            <groupId>be.veraghtert.tutorial.maven.dependency.mediation.components.tennis</groupId>
-            <artifactId>tennis-domain</artifactId>
+            <groupId>be.veraghtert.tutorial.maven.dependency.mediation</groupId>
+            <artifactId>sports-domain</artifactId>
         </dependency>
     </dependencies>
 

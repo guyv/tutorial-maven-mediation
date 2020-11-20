@@ -10,10 +10,11 @@
     <packaging>pom</packaging>
 
     <properties>
-        <revision>3.0.0</revision>
+        <revision>4.0.0</revision>
     </properties>
 
     <modules>
+        <module>sports-domain</module>
         <module>components</module>
         <module>app</module>
     </modules>

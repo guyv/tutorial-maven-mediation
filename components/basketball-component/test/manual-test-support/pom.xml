@@ -17,8 +17,8 @@
             <artifactId>spring-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>be.veraghtert.tutorial.maven.dependency.mediation.components.basketball</groupId>
-            <artifactId>basketball-domain</artifactId>
+            <groupId>be.veraghtert.tutorial.maven.dependency.mediation</groupId>
+            <artifactId>sports-domain</artifactId>
         </dependency>
     </dependencies>
 

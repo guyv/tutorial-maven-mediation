@@ -5,16 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>be.veraghtert.tutorial.maven.dependency.mediation.components.tennis</groupId>
-        <artifactId>tennis-component-parent</artifactId>
+        <groupId>be.veraghtert.tutorial.maven.dependency.mediation</groupId>
+        <artifactId>sports-service-parent</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>tennis-core</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>domain</module>
-    </modules>
+    <artifactId>sports-domain</artifactId>
+    <version>1.0.0</version>
 
 </project>
