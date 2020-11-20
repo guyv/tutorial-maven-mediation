@@ -1,0 +1,6 @@
+target
+*.iml
+.idea/*
+**/resources/META-INF/resources/changelog.html
+.flattened-pom.xml
+.DS_Store
