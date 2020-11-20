@@ -11,6 +11,6 @@
     </parent>
 
     <artifactId>sports-domain</artifactId>
-    <version>2.1.0</version>
+    <version>3.0.0</version>
 
 </project>

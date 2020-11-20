@@ -1,3 +1,9 @@
+# 3.0.0
+## BREAKING
+- removed getSport()
+- introduced getTennis()
+on SportsRepository
+
 # 2.1.0
 Added getBasketball on SportsRepository
 
