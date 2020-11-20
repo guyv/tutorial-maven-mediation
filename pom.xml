@@ -10,11 +10,12 @@
     <packaging>pom</packaging>
 
     <properties>
-        <revision>1.0.0</revision>
+        <revision>2.0.0</revision>
     </properties>
 
     <modules>
         <module>components</module>
+        <module>app</module>
     </modules>
 
     <dependencyManagement>
